@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "IPTestingServer": {
+      "commandName": "Project",
+      "commandLineArgs": "-port 25565 -maxusers 4 -clientcheckinterval 1000 -updateinterval 100 -encryptionkey test"
+    }
+  }
+}

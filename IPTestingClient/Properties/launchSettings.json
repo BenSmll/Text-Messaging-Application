@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "IPTestingClient": {
+      "commandName": "Project",
+      "commandLineArgs": "-username bobby -updateinterval 100 -ip:port 127.0.0.1:25565 -encryptionkey test"
+    }
+  }
+}

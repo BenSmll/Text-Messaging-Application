@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AppDLLStuff">
+      <HintPath>..\AppDLLStuff\bin\Debug\netcoreapp3.1\AppDLLStuff.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <TrimmerRootAssembly Include="mscorlib" />
+  </ItemGroup>
+
+</Project>
